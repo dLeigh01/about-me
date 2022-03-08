@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(255, 203, 221);
+}
+
+main {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 45px;
+  color: rgb(124, 11, 43);
+  text-align: center;
+  background-color: rgb(251, 75, 78);
+  font-family: fantasy;
+  padding: 5px;
+}
+
+p {
+  color: rgb(62, 0, 12);
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 20px;
+}
+
+strong {
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(25, 100, 126);
+}
+
+i {
+  font-style: italic;
+}
