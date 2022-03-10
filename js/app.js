@@ -125,7 +125,7 @@ if (question5 === 'y' || question5 === 'yes'){
 
 
 //Question six: Number guess
-
+function q6(){
 //random number generator
 let min = Math.ceil(1);
 let max = Math.floor(100);
@@ -165,6 +165,8 @@ for(let i = 0; i < 3; i++) {
   }
 }
 
+
+}
 
 
 //Question 7: Multiple choice
