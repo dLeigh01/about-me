@@ -171,6 +171,8 @@ for(let i = 0; i < 3; i++) {
 
 //Question 7: Multiple choice
 
+function q7(){
+
 let multipleChoice = ['pokemon', 'fire emblem', 'final fantasy', 'inscryption'];
 let question6 = prompt('Why don\'t you try to guess a video game that I like?').toLowerCase();
 let isTrue = false;
@@ -211,3 +213,5 @@ for(let i = 0; i < 6; i++) {
 //thank user for playing
 alert(`Your score is ${score}/7!`);
 alert(`Thank you for playing, ${userName}!`);
+
+}
