@@ -67,6 +67,7 @@ if (question2 === 'y' || question2 === 'yes'){
 
 //question 3
 
+function q3(){
 let question3 = prompt('Have I been to a different country?').toLowerCase();
 
 while(question3 !== 'y' && question3 !== 'yes' && question3 !== 'n' && question3 !== 'no') {
@@ -82,7 +83,7 @@ if (question3 === 'y' || question3 === 'yes'){
   alert('That is incorrect, I\'m in canada often and have been to Europe a few times.');
 }
 
-
+}
 
 //question 4
 
