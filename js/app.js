@@ -87,7 +87,7 @@ if (question3 === 'y' || question3 === 'yes'){
 
 //question 4
 
-
+function q4(){
 let question4 = prompt('Do I have a pet?').toLowerCase();
 
 while(question4 !== 'y' && question4 !== 'yes' && question4 !== 'n' && question4 !== 'no') {
@@ -102,7 +102,7 @@ if (question4 === 'y' || question4 === 'yes'){
   // console.log('Q4: That is incorrect.');
   alert('That is incorrect, I have three cats.');
 }
-
+}
 
 //question 5
 
