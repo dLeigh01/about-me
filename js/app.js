@@ -141,7 +141,7 @@ for(let i = 0; i < 6; i++) {
   if(isTrue === false && i !== 5) {
     question6 = prompt('Nice try, but no. Guess again!').toLowerCase();
   } else if(isTrue === false && i === 5) {
-    alert(`You didn\'t manage to get this one. I like ${multipleChoice[0]}, ${multipleChoice[1]}, ${multipleChoice[2]}, and ${multipleChoice[3]}. Better luck next time!`);
+    alert(`You didn't manage to get this one. I like ${multipleChoice[0]}, ${multipleChoice[1]}, ${multipleChoice[2]}, and ${multipleChoice[3]}. Better luck next time!`);
     //console.log('Q7: incorrect');
   } else {
     alert('Nice work! That\'s right!');
