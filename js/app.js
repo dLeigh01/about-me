@@ -9,21 +9,22 @@ alert(`Welcome, ${userName}!`);
 return userName;
 }
 
-// q1() ;
-// q2() ;
-// q3() ;
-// q4() ;
-// q5() ;
-// q6() ;
-// q7() ;
+let userName = getName();
+q1() ;
+q2() ;
+q3() ;
+q4() ;
+q5() ;
+q6() ;
+q7() ;
 
 
 
 
 // //question 1
-
-let question1 = prompt('Do I have a sibling?').toLowerCase();
 function q1(){
+let question1 = prompt('Do I have a sibling?').toLowerCase();
+
 while(question1 !== 'y' && question1 !== 'yes' && question1 !== 'n' && question1 !== 'no') {
   question1 = prompt('please give a yes or no answer.');
 }
