@@ -105,7 +105,7 @@ if (question4 === 'y' || question4 === 'yes'){
 }
 
 //question 5
-
+function q5() {
 let question5 = prompt('Can I play any instruments?').toLowerCase();
 
 while(question5 !== 'y' && question5 !== 'yes' && question5 !== 'n' && question5 !== 'no') {
@@ -121,6 +121,7 @@ if (question5 === 'y' || question5 === 'yes'){
   alert('That is incorrect, I can play the trumpet.');
 }
 
+}
 
 
 //Question six: Number guess
