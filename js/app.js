@@ -3,10 +3,26 @@
 let score = 0;
 
 //Get user name & welcome message
+function getName(){
 let userName = prompt('Hello! What is your name?').toUpperCase();
 alert(`Welcome, ${userName}!`);
+return userName;
+}
+
+let userName = getName();
+q1() ;
+q2() ;
+q3() ;
+q4() ;
+q5() ;
+q6() ;
+q7() ;
+
+
+
 
 // //question 1
+function q1(){
 let question1 = prompt('Do I have a sibling?').toLowerCase();
 
 while(question1 !== 'y' && question1 !== 'yes' && question1 !== 'n' && question1 !== 'no') {
@@ -22,7 +38,15 @@ if (question1 === 'y' || question1 === 'yes'){
   alert('That is incorrect, I have an older brother.');
 }
 
+}
+
+
+
+
+
 //question 2
+function q2(){
+
 let question2 = prompt('Do I have a degree?').toLowerCase();
 
 while(question2 !== 'y' && question2 !== 'yes' && question2 !== 'n' && question2 !== 'no') {
@@ -38,7 +62,13 @@ if (question2 === 'y' || question2 === 'yes'){
   score+=1;
 }
 
+}
+
+
+
 //question 3
+
+function q3(){
 let question3 = prompt('Have I been to a different country?').toLowerCase();
 
 while(question3 !== 'y' && question3 !== 'yes' && question3 !== 'n' && question3 !== 'no') {
@@ -54,7 +84,11 @@ if (question3 === 'y' || question3 === 'yes'){
   alert('That is incorrect, I\'m in canada often and have been to Europe a few times.');
 }
 
+}
+
 //question 4
+
+function q4(){
 let question4 = prompt('Do I have a pet?').toLowerCase();
 
 while(question4 !== 'y' && question4 !== 'yes' && question4 !== 'n' && question4 !== 'no') {
@@ -69,8 +103,10 @@ if (question4 === 'y' || question4 === 'yes'){
   // console.log('Q4: That is incorrect.');
   alert('That is incorrect, I have three cats.');
 }
+}
 
 //question 5
+function q5() {
 let question5 = prompt('Can I play any instruments?').toLowerCase();
 
 while(question5 !== 'y' && question5 !== 'yes' && question5 !== 'n' && question5 !== 'no') {
@@ -86,7 +122,11 @@ if (question5 === 'y' || question5 === 'yes'){
   alert('That is incorrect, I can play the trumpet.');
 }
 
+}
+
+
 //Question six: Number guess
+function q6(){
 //random number generator
 let min = Math.ceil(1);
 let max = Math.floor(100);
@@ -126,7 +166,14 @@ for(let i = 0; i < 3; i++) {
   }
 }
 
+
+}
+
+
 //Question 7: Multiple choice
+
+function q7(){
+
 let multipleChoice = ['pokemon', 'fire emblem', 'final fantasy', 'inscryption'];
 let question6 = prompt('Why don\'t you try to guess a video game that I like?').toLowerCase();
 let isTrue = false;
@@ -167,3 +214,5 @@ for(let i = 0; i < 6; i++) {
 //thank user for playing
 alert(`Your score is ${score}/7!`);
 alert(`Thank you for playing, ${userName}!`);
+
+}
