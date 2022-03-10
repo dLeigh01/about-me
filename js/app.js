@@ -44,6 +44,7 @@ if (question1 === 'y' || question1 === 'yes'){
 
 
 //question 2
+function q2(){
 
 let question2 = prompt('Do I have a degree?').toLowerCase();
 
@@ -58,6 +59,8 @@ if (question2 === 'y' || question2 === 'yes'){
   // console.log('Q2: That is correct!');
   alert('Correct! I dropped out of college early to pursue coding!');
   score+=1;
+}
+
 }
 
 
