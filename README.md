@@ -27,3 +27,15 @@ HTML&CSS by Jon Duckett
 ### Reflections 2
 
 Well, I was moderately disappointed today when I looked to figure out how to check against all items in an array at once and then had to restructure my whole last question when I realized I wasn't supposed to use it. Other than that, this was great practice with loops and I learned how to style list items. I also hopefully will never put a prompt without assigning it to a variable ever again after I did it like 8 times and could not figure out what was wrong for the life of me until I went and rubber-ducked with my table mates.
+
+## Lab 04
+
+### Authors: Driver - Chad Moore | Navigator - Dana Huffman
+
+### Links and Resources 3
+
+N/A
+
+### Reflections 3
+
+It wasn't two hard doing the pair programming. Chad and I worked well together and although we had a slight difference stylistically in how our code is formatted, we were able to do problem solving quickly whenever something arose, and we got done relatively quickly.
