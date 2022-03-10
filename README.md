@@ -22,6 +22,7 @@ Recieved help from Kyle, Raul, and Jon with debugging.
 `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random`
 `https://www.javascripttutorial.net/array/how-to-check-if-an-array-contains-a-value-in-javascript/`
 `https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists`
+HTML&CSS by Jon Duckett
 
 ### Reflections 2
 
