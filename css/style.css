@@ -34,11 +34,24 @@ i {
   font-style: italic;
 }
 
+#column-left {
+  float: left;
+  width: 48%;
+  margin: 10px;
+}
+
+#column-right {
+  float: left;
+  width: 48%;
+  margin: 10px;
+}
+
 h2 {
   font-size: 1.5em;
   font-family: fantasy;
   margin-top: 10px;
   margin-bottom: 10px;
+  clear: left;
 }
 
 li {
