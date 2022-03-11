@@ -39,3 +39,15 @@ N/A
 ### Reflections 3
 
 It wasn't two hard doing the pair programming. Chad and I worked well together and although we had a slight difference stylistically in how our code is formatted, we were able to do problem solving quickly whenever something arose, and we got done relatively quickly.
+
+
+## Lab 05
+
+### Links and Resources 4
+
+HTML&CSS by Jon Duckett
+`https://unsplash.com`
+
+### Reflections 4
+
+I added a couple of extra bits in CSS, which was nice, there were a few new things I learned in the reading and from the lecture today that I wanted to implement. The biggest issue I had was taking the picture out of the flow meant it would sit over the list text if the screen got too small. I had to do a pretty specific fix for it, but it worked. for the most part.
